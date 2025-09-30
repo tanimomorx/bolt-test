@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-6">
       {/* Animated Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900/20 to-purple-900/20">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_70%)]"></div>
@@ -28,10 +28,10 @@ const Hero: React.FC = () => {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
 
-      <div className="container mx-auto px-6 text-center relative z-10">
+      <div className="container mx-auto text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent leading-tight">
-            Omor Al Tanim
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent leading-tight">
+            Welcome to My Portfolio
           </h1>
           
           <div className="text-xl md:text-2xl text-gray-300 mb-8 h-8">
@@ -39,8 +39,7 @@ const Hero: React.FC = () => {
           </div>
 
           <p className="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Building intelligent solutions with 1+ years of experience in ERP, HRMS, CRM systems, 
-            and cutting-edge AI automation. Specialized in agentic AI, OCR solutions, and scalable web applications.
+            Co-founder & ICT Programming Trainer at Advance Virtual School. Building intelligent solutions with 1+ years of experience in ERP, HRMS, CRM systems, and cutting-edge AI automation.
           </p>
 
           <div className="flex justify-center space-x-6 mb-16">
